@@ -1,4 +1,6 @@
-# eversend-sdk-node [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# Eversend
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Nodejs SDK for Eversend payments API
 
 ## Installation
@@ -10,7 +12,7 @@ $ npm install --save @eversend/eversend
 ## Usage
 
 ```js
-const eversendClient = require('eversend-sdk-node')({clientId: 'clientId', clientSecret: 'clientSecret'});
+const eversendClient = require('@eversend/eversend')({clientId: 'clientId', clientSecret: 'clientSecret'});
 ```
 
 For additional documentation, check our [developer docs](https://developer.eversend.co/docs)
