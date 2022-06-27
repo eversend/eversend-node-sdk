@@ -1,7 +1,8 @@
-# Eversend
+# Eversend Nodejs SDK
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Nodejs SDK for Eversend payments API
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] ![Dependencies](https://img.shields.io/librariesio/release/npm/@eversend/eversend)
+
+Nodejs SDK for Eversend payments API
 
 ## Installation
 
