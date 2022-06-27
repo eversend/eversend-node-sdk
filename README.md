@@ -10,13 +10,13 @@ $ npm install --save @eversend/eversend
 ## Usage
 
 ```js
-const eversendSdkNode = require('eversend-sdk-node');
-
-eversendSdkNode('Rainbow');
+const eversendClient = require('eversend-sdk-node')({clientId: 'clientId', clientSecret: 'clientSecret'});
 ```
+
+For additional documentation, check our [developer docs](https://developer.eversend.co/docs)
 ## License
 
-MIT © [Frank Odongkara]()
+MIT © [Eversend]()
 
 
 [npm-image]: https://badge.fury.io/js/eversend-sdk-node.svg
