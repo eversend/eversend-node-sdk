@@ -22,9 +22,9 @@ For additional documentation, check our [developer docs](https://developer.evers
 MIT © [Eversend]()
 
 
-[npm-image]: https://badge.fury.io/js/eversend-sdk-node.svg
-[npm-url]: https://npmjs.org/package/eversend-sdk-node
-[travis-image]: https://travis-ci.com/eversend/eversend-sdk-node.svg?branch=master
-[travis-url]: https://travis-ci.com/eversend/eversend-sdk-node
-[daviddm-image]: https://david-dm.org/eversend/eversend-sdk-node.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/eversend/eversend-sdk-node
+[npm-image]: https://badge.fury.io/js/@eversend/eversend.svg
+[npm-url]: https://www.npmjs.com/package/@eversend/eversend
+[travis-image]: https://travis-ci.com/eversend/eversend-node-sdk.svg?branch=master
+[travis-url]: https://travis-ci.com/eversend/eversend-node-sdk
+[daviddm-image]: https://david-dm.org/eversend/eversend-node-sdk.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/eversend/eversend-node-sdk
