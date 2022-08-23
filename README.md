@@ -21,9 +21,8 @@ For additional documentation, check our [developer docs](https://developer.evers
 
 MIT © [Eversend]()
 
-
-[npm-image]: https://badge.fury.io/js/@eversend/eversend.svg
-[npm-url]: https://www.npmjs.com/package/@eversend/eversend
+[npm-image]: https://badge.fury.io/js/@eversend/node-sdk.svg
+[npm-url]: https://www.npmjs.com/package/@eversend/node-sdk
 [travis-image]: https://travis-ci.com/eversend/eversend-node-sdk.svg?branch=master
 [travis-url]: https://travis-ci.com/eversend/eversend-node-sdk
 [daviddm-image]: https://david-dm.org/eversend/eversend-node-sdk.svg?theme=shields.io
