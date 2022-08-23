@@ -7,7 +7,7 @@ Nodejs SDK for Eversend payments API
 ## Installation
 
 ```sh
-$ npm install --save @eversend/eversend
+$ npm install --save @eversend/node-sdk
 ```
 
 ## Usage
