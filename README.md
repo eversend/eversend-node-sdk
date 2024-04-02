@@ -212,6 +212,149 @@ const banks = await eversendClient.payouts.getDeliveryBanks({
   country: "UG"
 });
 ```
+
+### Cards
+
+**Create a card user**
+
+```js
+const createUser = await eversendClient.card.createCardUser({
+  firstName: "John",
+  lastName: "Okello",
+  email: "test@card.com",
+  phoneNumber: "+256712345678", // Should be in international format but optional
+});
+```
+>Note that phone number field is optional
+
+**Get card users**
+
+```js
+const cardUsers = await eversendClient.card.getCardUsers({
+   page: 1,
+   limit: 10
+});
+```
+
+If `page` and `limit` are not set, the default of `1` and `10` are used respectively.
+
+**Create a card**
+
+```js
+const card = await eversendClient.card.createCard({
+  title: "Netflix payment" // Reason for creating the card, which you can use to identify why you created the card
+  color: "blue" // could be blue, black, purple, yellow, orange
+  amount: 1000, // Amount to be added to card
+  currency: "USD", //The currency which the card creation amount will be deducted from. Use USD
+  brand: "visa", // could be visa, mastercard
+});
+
+```
+
+**Get all cards**
+
+```js
+const cards = await eversendClient.card.getAllCards({
+   page: 1, // optional
+   limit: 10, // optional
+   status, // optional
+   query, // optional
+   from, // optional
+   to, // optional
+});
+```
+
+If `page` and `limit` are not set, the default of `1` and `10` are used respectively.
+
+**Get single card details**
+
+```js
+const card = await eversendClient.card.getSingleCardDetails({
+  cardId
+});
+```
+
+**Get single card transactions**
+
+```js
+const singleCardTransactions = await eversendClient.card.fetchSingleCardTransaction({
+  cardId,
+  status, // optional
+  query, // optional
+  from,  // optional
+  to, // optional
+  type // optional
+  page: 1, // optional
+  limit: 10, // optional
+});
+
+```
+
+**Get all card transactions**
+
+```js
+const cardTransactions = await eversendClient.card.fetchAllCardsTransaction({
+  status, // optional
+  query, // optional
+  from,  // optional
+  to, // optional
+  type // optional
+  page: 1, // optional
+  limit: 10, // optional
+});
+
+```
+
+**Fund a card**
+
+```js
+const fundCard = await eversendClient.card.fundCard({
+  amount, cardId, currency
+});
+```
+
+**Withdraw from a card**
+
+```js
+const withDrawCard = await eversendClient.card.cardWithdrawal({
+  amount, cardId, currency
+});
+```
+
+**Freeze a card**
+
+```js
+const freezeCard = await eversendClient.card.freezeCard({
+  cardId
+});
+```
+
+**Unfreeze a card**
+
+```js
+const unfreezeCard = await eversendClient.card.unfreezeCard({
+  cardId
+});
+```
+
+**Delete a card**
+
+```js
+const deleteCard = await eversendClient.card.deleteCard({
+  cardId
+});
+```
+
+**Get card analytics**
+
+```js
+const cardAnalytics = await eversendClient.card.getCardsAnalytics({
+  from,  // optional
+  to, // optional
+});
+
+```
+
 ## Contribution Guidelines
 
 Contributions are welcome and encouraged. Learn more about our contribution guidelines [here](/CONTRIBUTING.md)
