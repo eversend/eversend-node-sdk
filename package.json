@@ -1,6 +1,6 @@
 {
   "name": "@eversend/node-sdk",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Nodejs SDK for Eversend payments API",
   "homepage": "https://github.com/eversend/eversend-node-sdk",
   "author": {
